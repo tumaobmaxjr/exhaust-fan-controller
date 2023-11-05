@@ -37,6 +37,41 @@ The following table presents the fuzzy rules that determine the fan speed based 
 |        Moderate     |   low  |   low  |   medium  | high | high |
 |         High        |   off  |   off  |   medium  | medium | high |
 
+<table>
+  <tr>
+    <th>Temperature / Air Quality</th>
+    <th>very cold</th>
+    <th>cold</th>
+    <th>medium</th>
+    <th>hot</th>
+    <th>very hot</th>
+  </tr>
+  <tr>
+    <th>low</th>
+    <td>low</td>
+    <td>medium</td>
+    <td>high</td>
+    <td>high</td>
+    <td>high</td>
+  </tr>
+  <tr>
+    <th>moderate</th>
+    <td>low</td>
+    <td>low</td>
+    <td>medium</td>
+    <td>high</td>
+    <td>high</td>
+  </tr>
+  <tr>
+    <th>high</th>
+    <td>off</td>
+    <td>off</td>
+    <td>medium</td>
+    <td>medium</td>
+    <td>high</td>
+  </tr>
+</table>
+
 5. ***Control System Creation***: Creates a fuzzy control system using the defined rules.
 
 6. ***Control System Simulation***: Sets input values for temperature and air quality and computes the fan speed using the control system.

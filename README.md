@@ -31,11 +31,6 @@ The Python code defines a fuzzy logic-based exhaust fan controller using the sci
 
 4. ***Fuzzy Rules***: Defines a set of fuzzy rules that determine the fan speed based on input conditions. Rules are defined for all possible combinations of temperature and air quality.
 The following table presents the fuzzy rules that determine the fan speed based on temperature and air quality:
-| Temperature/Air Quality | very cold | cold | medium | hot | very hot |
-|:----------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-|         Low         |   low  |   low  |   medium  | high | high |
-|        Moderate     |   low  |   low  |   medium  | high | high |
-|         High        |   off  |   off  |   medium  | medium | high |
 
 <table>
   <tr>

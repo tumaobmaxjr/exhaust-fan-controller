@@ -12,12 +12,6 @@ Before running the code, make sure you have the following Python libraries insta
 - scikit-fuzzy (skfuzzy)
 - Matplotlib
 
-You can install these libraries using pip if they are not already installed:
-
-```
-pip install numpy scikit-fuzzy matplotlib
-```
-
 ### Code Description
 The Python code defines a fuzzy logic-based exhaust fan controller using the scikit-fuzzy library. The code consists of the following components:
 1. ***Universe of Discourse***: Defines the range of values for the input and output variables:
